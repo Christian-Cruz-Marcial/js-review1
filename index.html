@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS REVIEW 1</title>
+</head>
+<body>
+
+
+<script>
+    console.group("Excercise 1");
+    console.log("Hello World!");
+    console.groupEnd;
+    
+    console.group("Excercise 2");
+    const myName = "Christian";
+    console.log(myName);
+    console.groupEnd;
+
+    
+    console.group("Excercise 3");
+    const length = 20;
+    const width = 40;
+    console.log(length * width);
+    console.groupEnd;
+
+    //excercise 4
+    console.group("Excercise 4");
+    const x = 64654;
+    if (x & 1){
+        console.log("Odd");
+    }else{
+        console.log("Even")
+    }
+    console.groupEnd;
+
+    //excercise 5
+    console.group("Excercise 5");
+    const numbers = [
+        {value: "1"},
+        {value: "2"},
+        {value: "3"},
+        {value: "4"},
+        {value: "5"},
+        {value: "6"},
+        {value: "7"},
+        {value: "8"},
+        {value: "9"},
+        {value: "10"},
+    ]
+    
+    for (let i = 0; i <= 10; i++) {
+        console.log(numbers[i]);
+    }
+    console.groupEnd;
+
+    //excercise 6
+    console.group("Excercise 6");
+    const name = prompt ('Enter your name:');
+    if (name != null){
+        console.log("hello " + name + "! How are you today?");
+    }
+    console.groupEnd;
+
+</script>
+</body>
+</html>
