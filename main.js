@@ -1,5 +1,4 @@
-
-    //Name: Christian Cruz Marcial
+//Name: Christian Cruz Marcial
     console.group("Excercise 1");
     console.log("Hello World!");
     console.groupEnd;
@@ -54,7 +53,7 @@
     }
     console.groupEnd;
 
-    console.group('Excercise7')
+    console.group('Excercise 7')
     function fact(x) {
         if(x === 0 || x === 1) {
             return 1;
@@ -72,7 +71,7 @@
     console.log(fact(x));
     console.groupEnd;
     
-    console.group('Excercise8')
+    console.group('Excercise 8')
     function findLeap(year){
         return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
     }
@@ -80,7 +79,7 @@
     console.log(findLeap(year));
     console.groupEnd;
     
-    console.group('Excercise9');
+    console.group('Excercise 9');
 
         let total = 0;
         let count = 0;
@@ -91,3 +90,15 @@
         console.log(total);
     
     console.groupEnd;
+
+    console.group('Excercise 10');
+function math(){
+    console.log('addition:' + n1+n2);
+    console.log('substraction:' + n1-n2);
+    console.log('multiplication:' + n1*n2);
+    console.log('division:' + n1/n2);
+}
+let n1 = prompt("Please enter any number"); 
+let n2 = prompt("Please enter a second number"); 
+console.log(math())
+    console.groupEnd
