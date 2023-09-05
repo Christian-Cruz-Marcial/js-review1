@@ -102,3 +102,32 @@ let n1 = prompt("Please enter any number");
 let n2 = prompt("Please enter a second number"); 
 console.log(math())
     console.groupEnd
+
+    console.group('excercise 11');
+    let string = 'hello';
+    console.log(string)
+
+    let number = 69;
+    console.log(number);
+    
+    const B = Boolean(false);
+    if (B){}
+    
+    console.log(B);
+    let no = null;
+    no;
+    
+    console.log(typeof(no));
+    let undefind = undefined;
+    
+    console.log(undefind);
+    let obj = number;
+    
+    console.log(obj);
+    let array = ['green', 'blue', 'red'];
+    
+    console.log(array);
+    let none = '';
+    console.log(none);
+    
+    console.groupEnd;
